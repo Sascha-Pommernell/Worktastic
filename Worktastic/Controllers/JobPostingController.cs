@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Worktastic.Data;
 using Worktastic.Models;
@@ -94,7 +88,7 @@ namespace Worktastic.Controllers
                 jobFromDb.JobTitle = jobPosting.JobTitle;
                 jobFromDb.Salary = jobPosting.Salary;
                 jobFromDb.StartDate = jobPosting.StartDate;
-                // jobFromDb.OwnerUsername = jobPosting.OwnerUsername;
+                jobFromDb.OwnerUsername = jobPosting.OwnerUsername;
             }
 
             _context.SaveChanges();
