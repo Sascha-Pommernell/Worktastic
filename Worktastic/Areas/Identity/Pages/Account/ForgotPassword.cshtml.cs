@@ -73,7 +73,7 @@ namespace Worktastic.Areas.Identity.Pages.Account
                 await _emailSender.SendEmailAsync(
                     Input.Email,
                     "Reset Password",
-                    $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    $"Bitte setzen Sie das persönliche Passwort zurück, in dem Sie<a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>hier klicken</a>.");
 
                 return RedirectToPage("./ForgotPasswordConfirmation");
             }

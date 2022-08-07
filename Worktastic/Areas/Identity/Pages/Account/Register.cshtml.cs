@@ -76,7 +76,7 @@ namespace Worktastic.Areas.Identity.Pages.Account
             /// </summary>
             [Required]
             [EmailAddress]
-            [Display(Name = "Email")]
+            [Display(Name = "E-Mail")]
             public string Email { get; set; }
 
             /// <summary>
@@ -95,7 +95,7 @@ namespace Worktastic.Areas.Identity.Pages.Account
             /// </summary>
             [DataType(DataType.Password)]
             [Display(Name = "Passwortprüfung")]
-            [Compare("Passwort", ErrorMessage = "Das eingegeben Passwort stimmt nicht mit dem bestätigtem Passwort überein.")]
+            [Compare("Password", ErrorMessage = "Das eingegeben Passwort stimmt nicht mit dem bestätigtem Passwort überein.")]
             public string ConfirmPassword { get; set; }
         }
 
@@ -162,9 +162,9 @@ namespace Worktastic.Areas.Identity.Pages.Account
             }
             catch
             {
-                throw new InvalidOperationException($"Es kann keine Instanc vom '{nameof(IdentityUser)}' erstellt werden. " +
-                    $"Stellen Sie sicher, dass '{nameof(IdentityUser)}' in keiner abstrakte Klasse definiert wurde und dass es einen parametrelosen Konstruktor gibt." +
-                    $"Überschreiben Sie die Seite /Areas/Identity/Pages/Account/Register.cshtml");
+                throw new InvalidOperationException($"Es kann keine Instanc vom '{nameof(IdentityUser)}' erstellt werden. " + 
+                                                    $"Stellen Sie sicher, dass '{nameof(IdentityUser)}' in keiner abstrakte Klasse definiert wurde und dass es einen parametrelosen Konstruktor gibt." +
+                                                    $"Überschreiben Sie die Seite /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
 
