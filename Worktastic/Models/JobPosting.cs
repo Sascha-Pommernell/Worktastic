@@ -9,6 +9,12 @@ public class JobPosting
     public string? JobLocation { get; set; }
 
     public string? Description { get; set; }
+    
+    public string? Tasks { get; set; }
+    
+    public string? EmployeeProfile { get; set; }
+    
+    public string? Benefits { get; set; }
 
     public int Salary { get; set; }
 
@@ -17,6 +23,8 @@ public class JobPosting
     public string? CompanyName { get; set; }
 
     public string? ContactPhone { get; set; }
+    
+    public string? ConntactPerson { get; set; }
 
     public string?  ContactMail { get; set; }
 

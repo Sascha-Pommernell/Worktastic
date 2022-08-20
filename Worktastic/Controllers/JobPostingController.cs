@@ -78,16 +78,20 @@ namespace Worktastic.Controllers
                     return NotFound();
                 }
 
-                jobFromDb.CompanyImage = jobPosting.CompanyImage;
-                jobFromDb.CompanyName = jobPosting.CompanyName;
-                jobFromDb.ContactMail = jobPosting.ContactMail;
-                jobFromDb.ContactPhone = jobPosting.ContactPhone;
-                jobFromDb.ContactWebsite = jobPosting.ContactWebsite;
-                jobFromDb.Description = jobPosting.Description;
-                jobFromDb.JobLocation = jobPosting.JobLocation;
                 jobFromDb.JobTitle = jobPosting.JobTitle;
+                jobFromDb.JobLocation = jobPosting.JobLocation;
+                jobFromDb.Description = jobPosting.Description;
+                jobFromDb.Tasks = jobPosting.Tasks;
+                jobFromDb.EmployeeProfile = jobPosting.EmployeeProfile;
+                jobFromDb.Benefits = jobPosting.Benefits;
                 jobFromDb.Salary = jobPosting.Salary;
                 jobFromDb.StartDate = jobPosting.StartDate;
+                jobFromDb.CompanyName = jobPosting.CompanyName;
+                jobFromDb.ContactPhone = jobPosting.ContactPhone;
+                jobFromDb.ConntactPerson = jobPosting.ConntactPerson;
+                jobFromDb.ContactMail = jobPosting.ContactMail;
+                jobFromDb.ContactWebsite = jobPosting.ContactWebsite;
+                jobFromDb.CompanyImage = jobPosting.CompanyImage;
                 jobFromDb.OwnerUsername = jobPosting.OwnerUsername;
             }
 
