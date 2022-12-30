@@ -69,7 +69,8 @@ namespace Worktastic.Controllers
             {
                 // Add new job if not editing
                 _context.JobPostings.Add(jobPosting);
-            } else
+            } 
+            else
             {
                 var jobFromDb = _context.JobPostings.SingleOrDefault(x => x.Id == jobPosting.Id);
 
@@ -91,8 +92,12 @@ namespace Worktastic.Controllers
                 jobFromDb.ConntactPerson = jobPosting.ConntactPerson;
                 jobFromDb.ContactMail = jobPosting.ContactMail;
                 jobFromDb.ContactWebsite = jobPosting.ContactWebsite;
-                jobFromDb.CompanyImage = jobPosting.CompanyImage;
                 jobFromDb.OwnerUsername = jobPosting.OwnerUsername;
+
+                if (jobPosting.CompanyImage != null)
+                {
+                    jobFromDb.CompanyImage = jobPosting.CompanyImage;
+                }
             }
 
             _context.SaveChanges();

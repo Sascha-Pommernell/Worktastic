@@ -42,16 +42,26 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-            <img id="modalImage" class="img-fluid" src="" />
-            
-            <div id="modalDescription"></div>
+          <img id="modalImage" class="img-fluid" src="" />
+          
+          <div id="modalCompanyName"></div>
 
-            <div id="modalSalary" class="mt-2"></div>
+          <div id="modlaTitle"></div>
 
-            <hr />
-
-            <div id="modalContact"></div>
-    </div>
+          <div id="modalDescription"></div>
+          
+          <div id="modalTasks"></div>
+          
+          <div id="modalEmployeeProfile"></div>
+          
+          <div id="modalBenefits"></div>
+          
+          <div id="modalSalary" class="mt-2"></div>
+          
+          <hr />
+          
+          <div id="modalContact"></div>
+      </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
       </div>
@@ -74,8 +84,10 @@
                 data: { id: id },
                 success: function (data) {
                     $('#modalImage').attr('src', `data:image/png;base64,${data.companyImage}`);
+                    $('#modalCompanyName').text(data.companyName);
                     $('#modalTitle').text(data.jobTitle);
                     $('#modalDescription').text(data.description);
+                    $('#modalTasks').text(data.Tasks);
                     $('#modalContact').text("Kontakt: " + data.contactMail);
                     $('#modalSalary').text("Jahresgehalt: " + data.salary + "€");
                     $('#modalJobPosting').modal('show')
