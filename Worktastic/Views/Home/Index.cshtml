@@ -43,24 +43,42 @@
       </div>
       <div class="modal-body">
           <img id="modalImage" class="img-fluid" src="" />
-          
-          <div id="modalCompanyName"></div>
 
-          <div id="modlaTitle"></div>
+          <div><h6 id="modalCompanyName"></h6></div>
+
+          <hr />
+          
+          <div><h6>Beschreibung</h6></div>
 
           <div id="modalDescription"></div>
-          
+
+          <hr />
+
+          <div><h6>Aufgaben</h6></div>
+
           <div id="modalTasks"></div>
-          
+
+          <hr />
+
+          <div><h6>Anforderungen</h6></div>
+
           <div id="modalEmployeeProfile"></div>
+
+          <hr />
+
+          <div><h6>Benefits</h6></div>
           
           <div id="modalBenefits"></div>
+
+          <hr />
           
           <div id="modalSalary" class="mt-2"></div>
           
           <hr />
-          
+          <div id="modalContactPerson"></div>
+          <div id="modalContactPhone"></div>          
           <div id="modalContact"></div>
+          <div id="modalContactWebsite"></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
@@ -86,10 +104,15 @@
                     $('#modalImage').attr('src', `data:image/png;base64,${data.companyImage}`);
                     $('#modalCompanyName').text(data.companyName);
                     $('#modalTitle').text(data.jobTitle);
-                    $('#modalDescription').text(data.description);
-                    $('#modalTasks').text(data.Tasks);
-                    $('#modalContact').text("Kontakt: " + data.contactMail);
-                    $('#modalSalary').text("Jahresgehalt: " + data.salary + "€");
+                    $('#modalDescription').text(data.description);                 
+                    $('#modalTasks').text(data.tasks);
+                    $('#modalEmployeeProfile').text(data.employeeProfile);
+                    $('#modalBenefits').text(data.benefits);
+                    $('#modalContactPerson').text("Ansprechpartner: " + data.contactPerson);
+                    $('#modalContactPhone').text("Telefon: " + data.contactPhone);
+                    $('#modalContact').text("E-Mail-Adresse: " + data.contactMail);
+                    $('#modalContactWebsite').text("Webseite: " + data.contactWebsite);
+                    $('#modalSalary').text("Jahresgehalt: " + data.salary + " €");
                     $('#modalJobPosting').modal('show')
                 }
              });
