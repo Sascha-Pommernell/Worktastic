@@ -243,7 +243,7 @@ namespace Worktastic.Migrations
                     b.Property<string>("CompanyName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ConntactPerson")
+                    b.Property<string>("ContactPerson")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactMail")
