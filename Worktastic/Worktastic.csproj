@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <Folder Include="Areas\Identity\Pages\Account" />
+      <Folder Include="Properties\PublishProfiles\" />
     </ItemGroup>
 
 </Project>

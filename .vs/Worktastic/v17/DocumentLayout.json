@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|d:\\entwicklung\\visual_studio\\worktastic\\worktastic\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|solutionrelative:worktastic\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|d:\\entwicklung\\visual_studio\\worktastic\\worktastic\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|solutionrelative:worktastic\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|d:\\entwicklung\\visual_studio\\worktastic\\worktastic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|solutionrelative:worktastic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|d:\\entwicklung\\visual_studio\\worktastic\\worktastic\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|solutionrelative:worktastic\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -38,6 +51,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Worktastic\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Worktastic\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T17:11:22.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "Worktastic\\Properties\\serviceDependencies.json",
+              "ToolTip": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "Worktastic\\Properties\\serviceDependencies.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T17:11:19.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\appsettings.json",
+              "RelativeDocumentMoniker": "Worktastic\\appsettings.json",
+              "ToolTip": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\appsettings.json",
+              "RelativeToolTip": "Worktastic\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T17:10:55.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\Dockerfile",
+              "RelativeDocumentMoniker": "Worktastic\\Dockerfile",
+              "ToolTip": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\Dockerfile",
+              "RelativeToolTip": "Worktastic\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-29T17:10:46.442Z",
+              "EditorCaption": ""
             }
           ]
         }
