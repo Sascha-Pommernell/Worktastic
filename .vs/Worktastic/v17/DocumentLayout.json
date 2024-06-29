@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|d:\\entwicklung\\visual_studio\\worktastic\\worktastic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F8C18CE7-D903-4428-843C-FE784F0E4791}|Worktastic\\Worktastic.csproj|solutionrelative:worktastic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,19 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\appsettings.json",
-              "RelativeDocumentMoniker": "Worktastic\\appsettings.json",
-              "ToolTip": "D:\\Entwicklung\\Visual_Studio\\Worktastic\\Worktastic\\appsettings.json",
-              "RelativeToolTip": "Worktastic\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-29T16:55:25.671Z",
-              "EditorCaption": ""
             }
           ]
         }
